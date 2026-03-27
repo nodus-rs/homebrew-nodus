@@ -1,27 +1,27 @@
 class Nodus < Formula
   desc "Add agent packages to your repo with one command"
   homepage "https://github.com/WendellXY/nodus"
-  version "0.5.0"
+  version "0.5.1"
   license "Apache-2.0"
   head "https://github.com/WendellXY/nodus.git", branch: "main"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/WendellXY/nodus/releases/download/v0.5.0/nodus-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "eb6e107f5d5ebee7150f8fb7614a0ae54dabba85fe11ae26caf8740408628c73"
+      url "https://github.com/WendellXY/nodus/releases/download/v0.5.1/nodus-v0.5.1-aarch64-apple-darwin.tar.gz"
+      sha256 "5a68038fe7ba3f37cbf2847ae8f9a854ad6cf1d29842d3edb47cfaa3565638c7"
     else
-      url "https://github.com/WendellXY/nodus/releases/download/v0.5.0/nodus-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5e9ce869d2d8e1211972261bb7d84f1975f128fa8728673b673337bb0e71848d"
+      url "https://github.com/WendellXY/nodus/releases/download/v0.5.1/nodus-v0.5.1-x86_64-apple-darwin.tar.gz"
+      sha256 "eb2a108f5df35d615bbcd46039d11c207f6430f71b849009c9216546307acf3f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/WendellXY/nodus/releases/download/v0.5.0/nodus-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f6395beb5a0e9e057c3dcaab72747238a7491c393239f28d394d00d85144914c"
+      url "https://github.com/WendellXY/nodus/releases/download/v0.5.1/nodus-v0.5.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d928389f5db6ca821dc5c9c4228def106891e95807c5f3dd1dc7a05d32c25cca"
     else
-      url "https://github.com/WendellXY/nodus/releases/download/v0.5.0/nodus-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4a2ecb6d1a13dc6e760c78feb6304f3f770a9f81be2c9e127ce6780529a7022a"
+      url "https://github.com/WendellXY/nodus/releases/download/v0.5.1/nodus-v0.5.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f592cc8d3ac600498d431d92f2dc3d35b3d4a9ef10ea47b04ce50663a6fbc8d4"
     end
   end
 
