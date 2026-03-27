@@ -5,7 +5,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 FORMULA_DIR="${ROOT_DIR}/Formula"
 CURRENT_FORMULA_PATH="${FORMULA_DIR}/nodus.rb"
-REPO_SLUG="${REPO_SLUG:-WendellXY/nodus}"
+REPO_SLUG="${REPO_SLUG:-nodus-rs/nodus}"
 FORMULA_NAME="nodus"
 
 usage() {
