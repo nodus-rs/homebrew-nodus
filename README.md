@@ -7,13 +7,13 @@ Official Homebrew tap for Nodus.
 Preferred one-command install:
 
 ```bash
-brew install WendellXY/nodus/nodus
+brew install nodus-rs/nodus/nodus
 ```
 
 Equivalent two-step install:
 
 ```bash
-brew tap WendellXY/nodus
+brew tap nodus-rs/nodus
 brew install nodus
 ```
 
@@ -51,4 +51,4 @@ ruby -c Formula/nodus@0.3.3.rb
 
 - The formula installs prebuilt GitHub Release archives instead of compiling with Rust.
 - `generate_completions_from_executable` installs shell completions from `nodus completion`.
-- Homebrew resolves `brew tap WendellXY/nodus` to `https://github.com/WendellXY/homebrew-nodus`.
+- Homebrew resolves `brew tap nodus-rs/nodus` to `https://github.com/nodus-rs/homebrew-nodus`.
