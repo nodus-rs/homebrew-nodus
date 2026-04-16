@@ -1,27 +1,27 @@
 class Nodus < Formula
   desc "Add agent packages to your repo with one command"
   homepage "https://github.com/nodus-rs/nodus"
-  version "0.9.3"
+  version "0.10.0"
   license "Apache-2.0"
   head "https://github.com/nodus-rs/nodus.git", branch: "main"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nodus-rs/nodus/releases/download/v0.9.3/nodus-v0.9.3-aarch64-apple-darwin.tar.gz"
-      sha256 "3972f39f6e9aaadaee3741ebdc927e639d50b0f3783547c922da462009852840"
+      url "https://github.com/nodus-rs/nodus/releases/download/v0.10.0/nodus-v0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3a22c29a919bc815fe2e37857c8933e0c7ae473e27737b84f3fa36bb042cf65f"
     else
-      url "https://github.com/nodus-rs/nodus/releases/download/v0.9.3/nodus-v0.9.3-x86_64-apple-darwin.tar.gz"
-      sha256 "9ab66036b18688f470f6dd95f4e5b512e294441c8bf18dddf44499b645745535"
+      url "https://github.com/nodus-rs/nodus/releases/download/v0.10.0/nodus-v0.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "bcac468b6d01b52a7091b7202f88d4df9a99a2c96656e656a8767f03407608e2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nodus-rs/nodus/releases/download/v0.9.3/nodus-v0.9.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5bd4ba593fa590f0958c6bc210ba59e751f5ba501c3a8ed4632447aff8019ec1"
+      url "https://github.com/nodus-rs/nodus/releases/download/v0.10.0/nodus-v0.10.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f13115cd8e2d61a0018ba36776a6bf3f38385b7ddb609461b807b2338d141cc5"
     else
-      url "https://github.com/nodus-rs/nodus/releases/download/v0.9.3/nodus-v0.9.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9ea555ba4d5ccaea702012719422137da6827f757422307433a9e7d91341c6f0"
+      url "https://github.com/nodus-rs/nodus/releases/download/v0.10.0/nodus-v0.10.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c69a1c1fe1886fc76fe08bad1a6cd7f181e2e9da7b204fdc19cc635583ba5662"
     end
   end
 
